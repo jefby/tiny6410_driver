@@ -1,0 +1,1 @@
+cmd_/root/Desktop/tiny6410_driver/hello_world/hello.ko := ld -r -m elf_i386  --build-id -o /root/Desktop/tiny6410_driver/hello_world/hello.ko /root/Desktop/tiny6410_driver/hello_world/hello.o /root/Desktop/tiny6410_driver/hello_world/hello.mod.o
