@@ -1,0 +1,12 @@
+ifneq ($(KERNELRELEASE),)
+	obj-m := dma-6410.o
+else
+	KERNELDIR ?= /opt/FriendlyARM/mini6410/linux/linux-2.6.38
+	PWD := $(shell pwd)
+default:
+	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
+clean:
+	rm -rf *.ko *.o *.order *~ *symvers *.mod.c
+endif
+
+ 

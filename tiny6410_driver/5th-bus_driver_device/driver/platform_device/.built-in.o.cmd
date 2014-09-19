@@ -1,0 +1,1 @@
+cmd_/opt/FriendlyARM/mini6410/linux/rootfs_v4/tiny6410_driver/bus_driver_device/driver/platform_device/built-in.o :=  rm -f /opt/FriendlyARM/mini6410/linux/rootfs_v4/tiny6410_driver/bus_driver_device/driver/platform_device/built-in.o; arm-linux-ar rcs /opt/FriendlyARM/mini6410/linux/rootfs_v4/tiny6410_driver/bus_driver_device/driver/platform_device/built-in.o
