@@ -95,7 +95,7 @@ static void virt_net_exit(void)
 module_init(virt_net_init);
 module_exit(virt_net_exit);
 
-MODULE_AUTHOR("thisway.diy@163.com,17653039@qq.com");
+MODULE_AUTHOR("jef199006@gmail.com,jefby");
 MODULE_LICENSE("GPL");
 
 
